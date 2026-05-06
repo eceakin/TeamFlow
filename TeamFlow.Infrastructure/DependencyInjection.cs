@@ -31,7 +31,7 @@ public static class DependencyInjection
         services.AddSingleton<IJwtService, JwtService>();
         services.AddSingleton<IPasswordHasher, BCryptPasswordHasher>();
         services.AddScoped<IActivityLogService, ActivityLogService>();
-
+        //e3
         return services;
     }
 }
