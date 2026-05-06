@@ -1,1 +1,9 @@
-<Solution />
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="TeamFlow.Application/TeamFlow.Application.csproj" />
+  <Project Path="TeamFlow.Domain/TeamFlow.Domain.csproj" />
+  <Project Path="TeamFlow.Infrastructure/TeamFlow.Infrastructure.csproj" />
+  <Project Path="TeamFlow.WebAPI/TeamFlow.WebAPI.csproj" />
+</Solution>
