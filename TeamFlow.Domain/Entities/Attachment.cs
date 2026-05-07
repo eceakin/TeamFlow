@@ -8,7 +8,7 @@ public class Attachment
     public long FileSize { get; set; }
     public string ContentType { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
+    //betül
     public Guid TaskId { get; set; }
     public ProjectTask Task { get; set; } = null!;
 
